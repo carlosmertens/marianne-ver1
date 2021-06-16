@@ -1,5 +1,5 @@
 import Head from 'next/head';
-// import Image from 'next/image';
+import Image from 'next/image';
 
 export default function Home() {
   return (
@@ -13,6 +13,24 @@ export default function Home() {
       {/* ========== HEADER SECTION ========== */}
       <header>
         <div className="hero-text-box">
+          <nav>
+            <div className="nav-logo">
+              <Image
+                src="/../public/logo.png"
+                alt="Logo"
+                width={125}
+                height={125}
+              />
+            </div>
+            <div className="nav-links">
+              <ul>
+                <li>Gift box delivery</li>
+                <li>How it works</li>
+                <li>Our neighborhoods</li>
+                <li>Contact us</li>
+              </ul>
+            </div>
+          </nav>
           <h1>
             Show your love with a gift.
             <br /> Be unique!

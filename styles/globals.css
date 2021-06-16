@@ -33,7 +33,7 @@ header {
         rgba(0, 0, 0, 0.7),
       rgba(0, 0, 0, 0.7)
     ),
-    url('../public/img/hero.jpg');
+    url('../public/img/hero2.jpg');
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -48,8 +48,14 @@ h1 {
   word-spacing: 4px;
 }
 
-.row {
-  max-width: 1140px;
-  margin: 0 auto;
-  background-color: #0070f3;
+nav {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  padding-left: 20px;
+}
+
+ul {
+  list-style: none;
 }

@@ -1,4 +1,11 @@
-/* ========== Utils ========== */
+/* ========== UTILS ========== */
+/* ROWS */
+.row {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+/* === BUTTONS === */
 .btn-box {
   margin-top: 40px;
 }
@@ -51,6 +58,19 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
+}
+
+.nav-logo {
+  float: left;
+}
+
+.nav-links {
+  float: right;
+  color: #fff;
+}
+.nav-links li {
+  display: inline-block;
+  padding: 30px 20px 0 0;
 }
 
 /* ========== NEXT JS STYLE ========== */
