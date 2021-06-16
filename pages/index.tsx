@@ -13,9 +13,18 @@ export default function Home() {
       {/* ========== HEADER SECTION ========== */}
       <header>
         <div className="hero-text-box">
-          <h1>Goodbye junk food. Hello super healthy meals.</h1>
-          <a href="#">I am hungry</a>
-          <a href="#">Show me more</a>
+          <h1>
+            Show your love with a gift.
+            <br /> Be unique!
+          </h1>
+          <div className="btn-box">
+            <a className="btn btn-full" href="#">
+              Shop now
+            </a>
+            <a className="btn btn-ghost" href="#">
+              Contact us
+            </a>
+          </div>
         </div>
       </header>
 

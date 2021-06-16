@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&display=swap');
 
+/* Gradient colors Cherryblosson
+#fbd3e9 -- rgb(251, 211, 233)
+#bb377d -- rgb(187, 55, 125) 
+*/
+
 * {
   margin: 0;
   padding: 0;
@@ -22,11 +27,25 @@ a {
 }
 
 header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+  background-image: linear-gradient(
+      /* rgba(187, 55, 125, 0.7),
+      rgba(251, 211, 233, 0.7) */
+        rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.7)
+    ),
     url('../public/img/hero.jpg');
   background-size: cover;
   background-position: center;
   height: 100vh;
+}
+
+h1 {
+  color: #fff;
+  font-size: 250%;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  word-spacing: 4px;
 }
 
 .row {

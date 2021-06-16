@@ -1,3 +1,41 @@
+/* ========== Utils ========== */
+.btn-box {
+  margin-top: 40px;
+}
+
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  padding: 10px 30px;
+  margin: 5px;
+  border-radius: 200px;
+  transition: background-color 0.3s, border 0.3s, color 0.3s;
+}
+
+.btn-full:link,
+.btn-full:visited {
+  color: #fff;
+  background-color: #bb377d; /* Base color */
+  border: 1px solid #bb377b;
+}
+.btn-full:hover,
+.btn-full:active {
+  background-color: #942b63; /* Darker shade */
+  border: 1px solid #942b63;
+}
+
+.btn-ghost:link,
+.btn-ghost:visited {
+  color: #bb377d;
+  border: 1px solid #bb377d;
+}
+.btn-ghost:hover,
+.btn-ghost:active {
+  color: #fff;
+  background-color: #942b63;
+  border: 1px solid #942b63;
+}
+
 /* ========== HEADER SECTION ========== */
 .hero-text-box {
   /* position: absolute;
